@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, white, lightblue);
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #0d6efd;
+    border-radius: 6px;
+    font-family: Ubuntu, sans-serif;
+    color: #0d6efd;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #0d6efd !important;
+}
+
+input {
+    margin-top: 10px !important;
+    height: 7vh; 
+    text-align: right;  
+    font-size: 2vh !important;
+}
+
+.bg-calculadora {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vh;
+    background-color: #f4f4f4;
+    border-radius: 6px;    
+    max-width: 60vh; 
+    box-shadow: 8px 10px lightblue;
+    margin-bottom: 4vh;
+}
+
+#resultado {
+    font-weight: 600 !important;
+    font-size: 3vh !important;
+}
+
+.ajuste-btn {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.visual-btn {
+    height: 7vh;
+    margin-top: 2vh;  
+    font-size: 3vh !important;    
+}
+
+.visual-btn2 {
+    margin-top: 10px;
+    height: 7vh;  
+    width: 100%;   
+    font-size: 2vh !important; 
+    font-weight: 600 !important; 
+}
